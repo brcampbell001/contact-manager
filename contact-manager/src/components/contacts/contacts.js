@@ -10,7 +10,7 @@ import {
 import { connect } from "react-redux";
 import * as actions from "./contacts-actions";
 
-export class Contact extends Component {
+export class Contacts extends Component {
   constructor(props) {
     super(props);
     this.showContact = this.showContact.bind(this);
